@@ -5,13 +5,13 @@ function HomePage() {
   return (
     <>
       <div
-      className="bg-cover bg-center min-h-screen flex items-center justify-center px-4 w-full"
+      className="bg-cover bg-center min-h-screen flex items-center justify-center px-4 w-full mt-16"
     style={{ backgroundImage: `url(${BgImage})` }}
     >
 
-      <div className="bg-white bg-opacity-80 p-8 md:p-12 rounded-lg text-center max-w-2xl shadow-lg">
+      <div className="p-5 text-center">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
-          Best food for <br className="hidden md:block" /> your taste
+          Best food for <br className="hidden md:block " /> your taste
         </h1>
         <p className="mt-4 text-lg text-gray-700">
           Discover delectable cuisine and unforgettable moments in our welcoming, culinary haven.
