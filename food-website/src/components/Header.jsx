@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaPhoneAlt, FaEnvelope, FaTwitter, FaFacebookF, FaInstagram, FaGithub } from "react-icons/fa";
-import Logo from '../assets/images/logo.png';// Assuming you have a logo image in your assets
+
 
 function Header() {
   return (
@@ -24,7 +24,7 @@ function Header() {
       <nav className="bg-white text-black px-4 py-3 flex flex-col md:flex-row items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-2 text-xl font-semibold">
-          <img src={Logo} alt="Bistro Bliss Logo" className="h-8 w-8" />
+          <img src="/images/logo.png" alt="Bistro Bliss Logo" className="h-8 w-8" />
           <span className="italic">Bistro Bliss</span>
         </div>
 
