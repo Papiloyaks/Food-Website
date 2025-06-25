@@ -1,5 +1,5 @@
 import React from 'react'
-import BgImage from '/src/assets/images/bgimage.png'; // Adjust the path as necessary
+import BgImage from '../assets/images/bgimage.png'; // Adjust the path as necessary
 
 function HomePage() {
   return (
