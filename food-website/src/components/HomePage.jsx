@@ -1,12 +1,11 @@
 import React from 'react'
-import BgImage from '../assets/images/bgimage.png'; // Adjust the path as necessary
 
 function HomePage() {
   return (
     <>
       <div
       className="bg-cover bg-center min-h-screen flex items-center justify-center px-4 w-full mt-16"
-    style={{ backgroundImage: `url(${BgImage})` }}
+     style={{ backgroundImage: "url('/images/bgimage.png')" }}
     >
 
       <div className="p-5 text-center">
