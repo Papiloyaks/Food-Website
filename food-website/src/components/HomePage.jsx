@@ -1,4 +1,8 @@
 import React from 'react'
+import MenuSection from './MenuSection'
+import HeroSection from './HeroSection'
+import ServicesSection from './ServicesSection'
+import DeliverySection from './DeliverySection'
 
 function HomePage() {
   return (
@@ -25,7 +29,10 @@ function HomePage() {
         </div>
       </div>
     </div>
-    
+    <MenuSection />
+    <HeroSection/>
+    <ServicesSection/>
+    <DeliverySection/>
 
     </>
   )
