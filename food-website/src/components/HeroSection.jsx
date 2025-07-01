@@ -7,7 +7,7 @@ function HeroSection() {
       {/* Left Side - Image and Contact Info */}
       <div className="relative  lg:w-1/2">
         <img
-          src="public/images/chop.png" 
+          src="/public/images/chop.png" 
           alt="Delicious Food"
           className="w-full h-auto rounded-lg object-cover"
         />
