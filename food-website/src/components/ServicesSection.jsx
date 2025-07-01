@@ -10,22 +10,22 @@ import React from 'react';
 const services = [
   {
     title: 'Caterings',
-    image: 'public/images/catering.png',
+    image: '/images/catering.png',
     description: 'In the new era of technology we look in the future with certainty for life.',
   },
   {
     title: 'Birthdays',
-    image: 'public/images/birth.png',
+    image: '/images/birth.png',
     description: 'In the new era of technology we look in the future with certainty for life.',
   },
   {
     title: 'Weddings',
-    image: 'public/images/wedding.png',
+    image: '/images/wedding.png',
     description: 'In the new era of technology we look in the future with certainty for life.',
   },
   {
     title: 'Events',
-    image: 'public/images/event.png',
+    image: '/images/event.png',
     description: 'In the new era of technology we look in the future with certainty for life.',
   },
 ];
