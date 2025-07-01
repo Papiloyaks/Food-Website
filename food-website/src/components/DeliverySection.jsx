@@ -8,19 +8,19 @@ function DeliverySection() {
       <div className="flex gap-4 w-full lg:w-1/2">
         <div className="flex-1">
           <img
-            src="public/images/chef.png"
+            src="/images/chef.png"
             alt="Chef preparing food"
             className="rounded-lg w-full h-[550px] object-cover"
           />
         </div>
         <div className="flex flex-col gap-4 flex-1">
           <img
-            src="/public/images/soup.png"
+            src="/images/soup.png"
             alt="Soup dish"
             className="rounded-lg w-full h-[300px] object-cover"
           />
           <img
-            src="public/images/plant.png"
+            src="/images/plant.png"
             alt="Kebab platter"
             className="rounded-lg w-full h-[240px] object-cover"
           />
