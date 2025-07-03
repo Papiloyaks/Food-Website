@@ -3,6 +3,7 @@ import MenuSection from './MenuSection'
 import HeroSection from './HeroSection'
 import ServicesSection from './ServicesSection'
 import DeliverySection from './DeliverySection'
+import Testimonial from './Testimonial'
 
 function HomePage() {
   return (
@@ -33,6 +34,7 @@ function HomePage() {
     <HeroSection/>
     <ServicesSection/>
     <DeliverySection/>
+    <Testimonial/>
 
     </>
   )
