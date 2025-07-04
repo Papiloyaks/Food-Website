@@ -1,13 +1,17 @@
 import React from 'react'
+import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa";
+import { GrInstagram } from "react-icons/gr";
+import { FaGithubSquare } from "react-icons/fa";
 
 
     
 const Footer = () => {
   const instagramImages = [
-    "/images/twitter.png",
-    "/images/facebook.png",
-    "/images/insta.png",
-    "/images/git.png",
+    "/images/egg.png",
+    "/images/fry.png",
+    "/images/potato.png",
+    "/images/creamy.png",
   ];
 
   return (
@@ -21,10 +25,10 @@ const Footer = () => {
             In the new era of technology we look to the future with certainty and pride for our company and.
           </p>
           <div className="flex gap-3 mt-2">
-            <a href="#" className="hover:text-red-400"><i className="fab fa-twitter">T</i></a>
-            <a href="#" className="hover:text-red-400"><i className="fab fa-facebook">F</i></a>
-            <a href="#" className="hover:text-red-400"><i className="fab fa-instagram">I</i></a>
-            <a href="#" className="hover:text-red-400"><i className="fab fa-pinterest">P</i></a>
+            <a href="#" className="hover:text-red-400 text-xl "><i className=""><FaXTwitter /></i></a>
+            <a href="#" className="hover:text-red-400 text-xl"><i className=""><FaFacebook /></i></a>
+            <a href="#" className="hover:text-red-400 text-xl"><i className=""><GrInstagram /></i></a>
+            <a href="#" className="hover:text-red-400 text-xl"><i className=""><FaGithubSquare /></i></a>
           </div>
         </div>
 
